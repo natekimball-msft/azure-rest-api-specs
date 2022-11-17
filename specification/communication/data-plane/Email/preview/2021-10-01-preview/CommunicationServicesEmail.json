@@ -93,6 +93,13 @@
             "required": true
           },
           {
+            "in": "header",
+            "name": "x-ms-correlation-id",
+            "description": "An optional custom correlation header value as a GUID that can be used to track a request.",
+            "type": "string",
+            "required": false            
+          },
+          {
             "$ref": "#/parameters/ApiVersionParameter"
           },
           {
